@@ -1,6 +1,6 @@
 # Redis Cache
 
-## What is Redis?
+## What is Redis? (Redis stands for Remote Directory Server)
 
 Redis is a high performance in-memory data store. Redis can be used as a NoSQL database, distributed cache or a Message Broker. Redis supports various data structures like String, Hashes, List, Sets, Sortedsets, Bitmaps, HyperLogLog and Geo Spatial Indexes etc.
 
@@ -25,6 +25,10 @@ https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-redis
 
 ## Start Redis Server
 redis-server --daemonize yes
+
+### Run Redis client
+open wsl on Windows
+> redis-cli
 
 
 
